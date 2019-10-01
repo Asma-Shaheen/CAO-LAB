@@ -1,0 +1,34 @@
+1.	Take any integer as input, if the number is greater than 5 print it 
+          If a >5, print a 
+          Else if a = 0, then Halt 
+          Else if a < 5, then halt 
+output:
+IN
+STO 98
+BRZ 14
+LDA 98
+SUB 37
+BRP 07
+BR 09
+LDA 98
+OUT
+HLT
+*37
+DAT 005
+
+
+2.	Take two numbers as input and print the larger number. 
+
+output:
+
+IN
+STO 98
+IN
+STO 99
+SUB 98
+BRP 08
+LDA 98
+BR 09
+LDA 99
+OUT
+HLT
