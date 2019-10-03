@@ -1,0 +1,38 @@
+How to get square of two numbers
+CODE:
+in 
+sto 99
+sto 98
+lda 98
+add 97
+sto 97
+lda 99
+sub 96
+sto 99
+brz 11
+br  03 
+lda 97
+out
+hlt
+*96
+001
+000
+
+How to generate a table of ant number
+CODE:
+in 
+sto 99
+lda 99
+add 97
+sto 97
+out
+lda 96
+sub 98
+sto 96
+brz 11
+br  02 
+hlt
+*96
+010
+000
+001
